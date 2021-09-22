@@ -70,6 +70,7 @@ const controlOptions = {
         // actual attributes on the HTML element, and their default values
         type: 'email', // type field is important if tag==input
         name: 'email',
+        required: false, // add required: [boolean] to show the required checkbox
       },
       options: [
         // Used for element types like radio buttons
